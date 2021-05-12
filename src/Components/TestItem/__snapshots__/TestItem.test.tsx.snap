@@ -4,13 +4,19 @@ exports[`TestItem should render correctly 1`] = `
 <styled.div>
   <h3>
     NaN
-    : 
+    :
+     
     Desc
   </h3>
   <br />
   <p>
-    Test Status: 
-    <strong />
+    Status:
   </p>
+  <styled.p
+    color="red"
+    data-testId="text-bold"
+  >
+    Failed
+  </styled.p>
 </styled.div>
 `;

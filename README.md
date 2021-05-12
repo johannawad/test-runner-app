@@ -6,7 +6,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 Initialise the project by running: (the prequisite is for this is to have Node and Yarn globally installed): -> https://classic.yarnpkg.com/en/docs/install/
 
-### `yarn` 
+### `yarn`
 
 To run the project locally:
 
@@ -32,10 +32,8 @@ The build is minified and the filenames include the hashes.\
 Your app is ready to be deployed!
 
 ### About the application
-The application uses the Redux, a library that follows the flux pattern. This library adapts a few design patterns and implements a 
-unidirectional flow of data within the application. The flow incorporates a fewsoftware design patters. The State of the application 
-uses the Singleton pattern. This means that there can only be instance of the State. This allows for a centralized state management 
-ensuring that all changes to the state are applied to one place, making it easier to track and understand. The processing and flow 
-of data is achieved with the use of Actions, Reducers and Dispatchers. The application also uses Redux Saga for handling side-effects.
-Styling is implemented using the styled-component library. The application defines global and shared styles which can be extended in
-the future. 
+
+The application is a simulation 'Test Runner' which runs a number of tests on a button press.
+After a given time, the application returns a randomised result of 'Passed' or 'Failed' for each test.
+The application uses React with Typescript. Jest and Enzyme for testing.
+It also uses redux for state management and redux-saga for handling side-effects.
